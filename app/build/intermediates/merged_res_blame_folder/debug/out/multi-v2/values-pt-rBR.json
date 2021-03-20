@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\jolut\\AndroidStudioProjects\\PruebasSonar2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
+            "outputFile": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jolut\\.gradle\\caches\\transforms-2\\files-2.1\\8d5c1f4a05f3c35d5390f90d4a4906ed\\navigation-ui-2.2.2\\res\\values-pt-rBR\\values-pt-rBR.xml",

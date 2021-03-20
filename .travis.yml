@@ -25,4 +25,4 @@ android:
       sonarcloud:
         organization: "jolutoher18"
         token:
-          secure: "68ac5cd714b1d0abac874917e76c6698f9645db1" # encrypted value of your token
+          secure: "e80abafd2ce48bc5cd61c87a3792b4762b86da4c" # encrypted value of your token

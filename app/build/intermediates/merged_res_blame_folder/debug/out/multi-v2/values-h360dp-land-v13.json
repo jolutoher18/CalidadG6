@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\jolut\\AndroidStudioProjects\\PruebasSonar2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
+            "outputFile": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jolut\\.gradle\\caches\\transforms-2\\files-2.1\\4b5bf9de51d89be3fa74e63160c491d0\\material-1.2.1\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",

@@ -1,6 +1,38 @@
+com/example/myapplication/PuntuacionDB.java
+ com.example.myapplication.ParPuntuacion
+ com.example.myapplication.PuntuacionDB
+com/example/myapplication/ServicioMusica.java
+ com.example.myapplication.ServicioMusica
+com/example/myapplication/OpcionesAct.java
+ com.example.myapplication.OpcionesAct
+ com.example.myapplication.OpcionesAct$1
+ com.example.myapplication.OpcionesAct$2
+ com.example.myapplication.OpcionesAct$3
+ com.example.myapplication.OpcionesAct$4
+com/example/myapplication/PantallaVictoria.java
+ com.example.myapplication.PantallaVictoria
+ com.example.myapplication.PantallaVictoria$1
+com/example/myapplication/MainJuego.java
+ com.example.myapplication.MainJuego
+ com.example.myapplication.MainJuego$1
+ com.example.myapplication.MainJuego$2
+ com.example.myapplication.MainJuego$3
+com/example/myapplication/TutoActivity.java
+ com.example.myapplication.TutoActivity
+ com.example.myapplication.TutoActivity$1
+com/example/myapplication/BuildConfig.java
+ com.example.myapplication.BuildConfig
 com/example/myapplication/MainActivity.java
  com.example.myapplication.MainActivity
  com.example.myapplication.MainActivity$1
  com.example.myapplication.MainActivity$2
  com.example.myapplication.MainActivity$3
  com.example.myapplication.MainActivity$4
+com/example/myapplication/PantallaDerrota.java
+ com.example.myapplication.PantallaDerrota
+ com.example.myapplication.PantallaDerrota$1
+com/example/myapplication/MenuPausa.java
+ com.example.myapplication.MenuPausa
+ com.example.myapplication.MenuPausa$1
+ com.example.myapplication.MenuPausa$2
+ com.example.myapplication.MenuPausa$3
