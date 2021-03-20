@@ -30,6 +30,16 @@ android {
     }
 }
 
+sonarqube {
+    properties {
+        property "sonar.projectKey", "jolutoher18_CalidadG6"
+        property "sonar.organization", "jolutoher18"
+        property "sonar.host.url", "https://sonarcloud.io/"
+        property "sonar.login", "e80abafd2ce48bc5cd61c87a3792b4762b86da4c"
+        property "sonar.branch.name", System.getenv("BRANCH")
+    }
+}
+
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.2.0'
