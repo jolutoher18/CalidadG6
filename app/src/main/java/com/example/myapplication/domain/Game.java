@@ -9,7 +9,7 @@ public class Game {
     private final Score score;
 
     public Game() {
-        this.countdown = new Countdown();
+        this.countdown = Countdown.newDefault();
         this.score = new Score();
     }
 

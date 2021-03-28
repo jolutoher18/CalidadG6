@@ -8,6 +8,9 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
 
+/**
+ * A scoreboard that stores all the scores from best to worst.
+ */
 @SuppressWarnings("NewAPI")
 public class Scoreboard {
 
