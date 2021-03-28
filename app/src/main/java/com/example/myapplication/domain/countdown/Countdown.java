@@ -17,8 +17,8 @@ public class Countdown {
 
     private static final int DEFAULT_START_FROM = 30;
 
-    private final AtomicInteger counter;
     private final int startFrom;
+    private final AtomicInteger counter;
 
     public Countdown() {
         this(DEFAULT_START_FROM);
