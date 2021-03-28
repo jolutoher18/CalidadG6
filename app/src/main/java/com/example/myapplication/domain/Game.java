@@ -3,6 +3,9 @@ package com.example.myapplication.domain;
 import com.example.myapplication.domain.countdown.Countdown;
 import com.example.myapplication.domain.score.Score;
 
+/**
+ * A game that stores all the current state and statistics of the game.
+ */
 public class Game {
 
     private final Countdown countdown;

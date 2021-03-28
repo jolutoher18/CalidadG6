@@ -1,16 +1,23 @@
 package com.example.myapplication.domain;
 
+/**
+ * Represents a simple singleton factory for the game.
+ */
 public class GameFactory {
 
-    private static final Game game = new Game();
+    private static Game game;
 
     public static Game currentGame() {
+        if(game == null) {
+            game = new Game();
+        }
         return game;
     }
 
     public static Game resetGame() {
-        game.resetGame();
-        return game;
+        Game currentGame = currentGame();
+        currentGame.resetGame();
+        return currentGame;
     }
 
 }
