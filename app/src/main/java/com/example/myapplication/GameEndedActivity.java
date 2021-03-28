@@ -28,6 +28,8 @@ public class GameEndedActivity extends AppCompatActivity {
 
         Game game = GameFactory.currentGame();
         Score score = game.getScore();
+
+        // If the player has archieved more than zero points
         if(score.getPoints() > 0) {
             scoreboardService.addScoreToScoreboard(score);
         }
@@ -36,6 +38,8 @@ public class GameEndedActivity extends AppCompatActivity {
 
         final String SCORE_ID_PREFIX = "score_";
         int traversalIndex = 0;
+
+        // Update all the scores in the interface display
         while(traversalIndex < topScores.size() - 1) {
             String elementId = SCORE_ID_PREFIX + (traversalIndex + 1);
             int resourceId = findResourceId(elementId);
