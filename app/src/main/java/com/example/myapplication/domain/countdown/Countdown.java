@@ -15,15 +15,17 @@ public class Countdown {
         return new Countdown(startFrom);
     }
 
-    private static final int START_FROM = 30;
+    private static final int DEFAULT_START_FROM = 30;
 
     private final AtomicInteger counter;
+    private final int startFrom;
 
     public Countdown() {
-        this(START_FROM);
+        this(DEFAULT_START_FROM);
     }
 
     public Countdown(int startFrom) {
+        this.startFrom = startFrom;
         this.counter = new AtomicInteger(startFrom);
     }
 
@@ -40,7 +42,7 @@ public class Countdown {
     }
 
     public void resetCounter() {
-        counter.set(START_FROM);
+        counter.set(startFrom);
     }
 
 }
