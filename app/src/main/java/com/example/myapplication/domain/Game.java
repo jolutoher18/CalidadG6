@@ -27,7 +27,7 @@ public class Game {
     }
 
     public void updateStatus(Status status) {
-        score.updateScore(status);
+        score.updateStatus(status);
     }
 
     public int countdown() {
