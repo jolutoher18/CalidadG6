@@ -1,15 +1,12 @@
 package com.example.myapplication.infrastructure.serializer;
 
-import android.os.Build;
-import androidx.annotation.RequiresApi;
-
 import com.example.myapplication.domain.scoreboard.Scoreboard;
 import com.example.myapplication.infrastructure.json.JsonSerializer;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-@RequiresApi(api = Build.VERSION_CODES.N)
+@SuppressWarnings("NewAPI")
 public class ScoreboardJsonSerializer implements JsonSerializer<Scoreboard> {
 
     private static final String SCORES_KEY = "scores";

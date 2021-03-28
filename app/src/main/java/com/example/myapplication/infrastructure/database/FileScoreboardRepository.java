@@ -1,8 +1,5 @@
 package com.example.myapplication.infrastructure.database;
 
-import android.os.Build;
-import androidx.annotation.RequiresApi;
-
 import com.example.myapplication.domain.scoreboard.Scoreboard;
 import com.example.myapplication.domain.scoreboard.ScoreboardRepository;
 import com.example.myapplication.infrastructure.json.JsonDeserializer;
@@ -18,7 +15,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-@RequiresApi(api = Build.VERSION_CODES.R)
+@SuppressWarnings("NewAPI")
 public class FileScoreboardRepository implements ScoreboardRepository {
 
     private final String filename;

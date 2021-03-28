@@ -1,9 +1,5 @@
 package com.example.myapplication.domain.scoreboard;
 
-import android.os.Build;
-
-import androidx.annotation.RequiresApi;
-
 import com.example.myapplication.domain.score.Score;
 
 import java.util.ArrayList;
@@ -12,7 +8,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
 
-@RequiresApi(api = Build.VERSION_CODES.N)
+@SuppressWarnings("NewAPI")
 public class Scoreboard {
 
     private final PriorityQueue<Score> scores;

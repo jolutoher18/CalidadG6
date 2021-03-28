@@ -11,7 +11,7 @@ public class ScoreJsonDeserializer implements JsonDeserializer<Score> {
 
     public Score deserialize(JSONObject object) {
         try {
-            return new Score(object.getInt(JSON_POINTS_KEY));
+            return new Score(object.getInt(JSON_POINTS_KEY), 0);
         } catch(Exception e) {
             throw new RuntimeException(e);
         }
