@@ -1,7 +1,5 @@
 package com.example.myapplication.application;
 
-import android.os.Environment;
-
 import com.example.myapplication.domain.score.Score;
 import com.example.myapplication.domain.scoreboard.Scoreboard;
 import com.example.myapplication.domain.scoreboard.ScoreboardRepository;
@@ -18,7 +16,6 @@ public class ScoreboardServiceImpl implements ScoreboardService {
     public ScoreboardServiceImpl(String filename) {
         this.scoreboardRepository = new FileScoreboardRepository(filename);
     }
-
 
     @Override
     public List<Score> findByHighestScore(int amount) {
