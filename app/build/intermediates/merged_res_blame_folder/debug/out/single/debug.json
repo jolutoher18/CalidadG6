@@ -1,258 +1,262 @@
 [
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_engranaje2.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\engranaje2.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_settings.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-xhdpi\\settings.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\layout_menuopciones.xml.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\layout\\menuopciones.xml"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splashscreen.xml.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\splashscreen.xml"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_s.jpg.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\s.jpg"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fondoopciones.jpg.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\fondoopciones.jpg"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mal2.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\mal2.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mal1.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\mal1.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap_prueba2.jpg.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap\\prueba2.jpg"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_close.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-hdpi\\close.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bien2.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\bien2.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bien2.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\bien2.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fondoaplicacionfinal.jpg.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\fondoaplicacionfinal.jpg"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap_mysplash.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap\\mysplash.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap_mysplash.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap\\mysplash.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_d.jpg.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\d.jpg"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\layout_pantallajuego.xml.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\layout\\pantallajuego.xml"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap_prueba2.jpg.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap\\prueba2.jpg"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fondoapp2.jpg.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\fondoapp2.jpg"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tuto1.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\tuto1.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\raw_musicajuego.mp3.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\raw\\musicajuego.mp3"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fondoopciones.jpg.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\fondoopciones.jpg"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\layout_tuto.xml.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\layout\\tuto.xml"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_stat_help_outline.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-xhdpi\\ic_stat_help_outline.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_s.jpg.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\s.jpg"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splashscreen.xml.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\splashscreen.xml"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\layout_pantallajuego.xml.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\layout\\pantallajuego.xml"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_settings.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-xxxhdpi\\settings.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_settings.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-hdpi\\settings.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_engranaje2.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\engranaje2.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\layout_menuopciones.xml.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\layout\\menuopciones.xml"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_d.jpg.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\d.jpg"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_engranaje.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\engranaje.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_settings.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-hdpi\\settings.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\layout_menuinicio.xml.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\layout\\menuinicio.xml"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fondojuego.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\fondojuego.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\raw_musicajuego.mp3.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\raw\\musicajuego.mp3"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_splash_screen.xml.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\layout\\activity_my_splash_screen.xml"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_engranaje.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\engranaje.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bien1.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\bien1.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_splash_screen.xml.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\layout\\activity_my_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_a.jpg.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\a.jpg"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pantalla_derrota.xml.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\layout\\activity_pantalla_derrota.xml"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bien3.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\bien3.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mal2.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\mal2.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_a.jpg.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\a.jpg"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pantalla_derrota.xml.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\layout\\activity_pantalla_derrota.xml"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_stat_help_outline.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_stat_help_outline.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_settings.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-xxhdpi\\settings.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_close.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-hdpi\\close.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fondoapp2.jpg.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\fondoapp2.jpg"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bien4.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\bien4.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_stat_help_outline.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-hdpi\\ic_stat_help_outline.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pantalla_victoria.xml.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\layout\\activity_pantalla_victoria.xml"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_settings.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-xxhdpi\\settings.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_celebracion.jpg.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\celebracion.jpg"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_stat_help_outline.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-mdpi\\ic_stat_help_outline.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_settings.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-mdpi\\settings.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_stat_help_outline.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-xhdpi\\ic_stat_help_outline.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\layout_menuinicio.xml.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\layout\\menuinicio.xml"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_stat_help_outline.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-mdpi\\ic_stat_help_outline.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_stat_help_outline.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-hdpi\\ic_stat_help_outline.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\layout_game_ended_screen.xml.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\layout\\game_ended_screen.xml"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mal3.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\mal3.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mal3.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\mal3.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_stat_help_outline.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_stat_help_outline.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bien4.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\bien4.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_settings.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-xhdpi\\settings.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mal1.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\mal1.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\layout_tuto.xml.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\layout\\tuto.xml"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tuto1.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\tuto1.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bien3.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\bien3.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_settings.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-mdpi\\settings.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_stat_help_outline.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_stat_help_outline.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pantalla_victoria.xml.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\layout\\activity_pantalla_victoria.xml"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fondoaplicacionfinal.jpg.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\fondoaplicacionfinal.jpg"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bien1.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\bien1.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_settings.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\mipmap-xxxhdpi\\settings.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_stat_help_outline.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_stat_help_outline.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mal4.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\mal4.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mal4.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\mal4.png"
     },
     {
-        "merged": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fondojuego.png.flat",
-        "source": "C:\\Users\\jolut\\AndroidStudioProjects\\CalidadG6\\app\\src\\main\\res\\drawable\\fondojuego.png"
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\res\\merged\\debug\\drawable_celebracion.jpg.flat",
+        "source": "F:\\Sourcetree\\CalidadG6\\app\\src\\main\\res\\drawable\\celebracion.jpg"
     }
 ]
