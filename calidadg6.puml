@@ -1,0 +1,212 @@
+@startuml
+class com.example.myapplication.PantallaDerrota {
+~ Button volver
+# void onCreate(Bundle)
++ void FuncionVolverMenuPrincipal(View)
+}
+class com.example.myapplication.TutoActivity {
+~ ImageButton botonSalir
+# void onCreate(Bundle)
++ void FuncionSalirTuto(View)
+}
+class com.example.myapplication.infrastructure.serializer.ScoreJsonDeserializer {
+- {static} String JSON_POINTS_KEY
++ Score deserialize(JSONObject)
+}
+class com.example.myapplication.domain.countdown.Countdown {
+- {static} int DEFAULT_START_FROM
+- int startFrom
+- AtomicInteger counter
++ {static} Countdown newDefault()
++ {static} Countdown newStartingFrom(int)
++ boolean finishedCount()
++ int counterValue()
++ int decrementCounter()
++ void resetCounter()
+}
+class com.example.myapplication.ParPuntuacion {
+- int puntos
++ int getPuntos()
++ void setPuntos(int)
++ int compareTo(Object)
+}
+class com.example.myapplication.PuntuacionDB {
+- int puntuacionReciente
+- ArrayList<ParPuntuacion> listaPuntuacionesMejores
++ int getPuntuacionReciente()
++ void setPuntuacionReciente(int)
++ ArrayList<ParPuntuacion> getListaPuntuacionesMejores()
++ void setListaPuntuacionesMejores(ArrayList<ParPuntuacion>)
+}
+class com.example.myapplication.infrastructure.database.FileScoreboardRepository {
+- String filename
+- JsonSerializer<Scoreboard> scoreboardSerializer
+- JsonDeserializer<Scoreboard> scoreboardDeserializer
++ Scoreboard findScoreboard()
++ Scoreboard saveScoreboard(Scoreboard)
+}
+class com.example.myapplication.GameEndedActivity {
+- int TOP_SCORES_AMOUNT
+# void onCreate(Bundle)
++ String getStorageFilePath()
++ int findResourceId(String)
+}
+class com.example.myapplication.domain.score.points.KarmaBasedPointsStrategy {
++ int computeIncrement(Status,int)
+}
+class com.example.myapplication.domain.random.RandomUtils {
+- {static} Random BASE_RANDOM
++ {static} int randomInRange(int,int)
+}
+class com.example.myapplication.domain.score.Score {
+- {static} int STARTING_POINTS
+- {static} int STARTING_KARMA
+- AtomicInteger points
+- AtomicBoolean isKarmaLocked
+- AtomicInteger karma
++ int getPoints()
++ int getKarma()
++ void resetPoints()
++ void updateStatus(Status)
++ boolean setKarma(boolean)
++ int incrementKarma(int)
++ int compareTo(Score)
+}
+class com.example.myapplication.OpcionesAct {
+~ ImageButton cruz
+~ Button guardar
++ {static} boolean encendida
+# void onCreate(Bundle)
+# void onSaveInstanceState(Bundle)
++ void FuncionesMusica(View)
++ void enciendeMusica()
++ void apagaMusica()
++ void volverAlmenu(View)
++ void guardar(View)
++ void quitarMenu(View)
+}
+class com.example.myapplication.domain.GameFactory {
+- {static} Game game
++ {static} Game currentGame()
++ {static} Game resetGame()
+}
+interface com.example.myapplication.application.ScoreboardService {
+~ List<Score> findByHighestScore(int)
+~ Score addScoreToScoreboard(Score)
+}
+class com.example.myapplication.MainJuego {
+~ TextView contador
+~ boolean hasGanado
+~ long tiempRest
+~ int casoconcreto
+~ int puntuacion
+~ int karma
++ ArrayList<ImageView> personas
+# void onCreate(Bundle)
++ void RandomizePeople()
++ int getImage(String)
+# void onSaveInstanceState(Bundle)
++ void onClick(View)
++ void FuncionIrOpcionesJuego(View)
++ void cuentaatras(Long)
++ void serializarPuntuacion()
++ void redirigir()
+}
+class com.example.myapplication.application.ScoreboardServiceImpl {
+- ScoreboardRepository scoreboardRepository
++ List<Score> findByHighestScore(int)
++ Score addScoreToScoreboard(Score)
+}
+class com.example.myapplication.ServicioMusica {
+~ MediaPlayer mp
++ void onCreate()
++ int onStartCommand(Intent,int,int)
++ void onDestroy()
++ void mute()
++ IBinder onBind(Intent)
+}
+class com.example.myapplication.infrastructure.serializer.ScoreboardJsonSerializer {
+- {static} String SCORES_KEY
+- ScoreJsonSerializer scoreSerializer
++ JSONObject serialize(Scoreboard)
+}
+interface com.example.myapplication.infrastructure.json.JsonSerializer {
+~ JSONObject serialize(T)
+}
+class com.example.myapplication.infrastructure.serializer.ScoreJsonSerializer {
++ JSONObject serialize(Score)
+}
+interface com.example.myapplication.infrastructure.json.JsonDeserializer {
+~ T deserialize(JSONObject)
+}
+class com.example.myapplication.infrastructure.serializer.ScoreboardJsonDeserializer {
+- {static} String SCORES_KEY
+- ScoreJsonDeserializer scoreDeserializer
++ Scoreboard deserialize(JSONObject)
+}
+class com.example.myapplication.domain.Game {
+- Countdown countdown
+- Score score
++ void resetGame()
++ Score getScore()
++ boolean hasGameFinished()
++ void updateStatus(Status)
++ int countdown()
+}
+interface com.example.myapplication.domain.scoreboard.ScoreboardRepository {
+~ Scoreboard findScoreboard()
+~ Scoreboard saveScoreboard(Scoreboard)
+}
+class com.example.myapplication.domain.score.points.SimplePointsStrategy {
++ int computeIncrement(Status,int)
+}
+class com.example.myapplication.MainActivity {
+~ Button botonJugar
+~ ImageButton botonTuto
+~ TextView contador
++ Integer inicio
+# void onCreate(Bundle)
++ void FuncionMenuOpciones(View)
++ void FuncionTestSalir(View)
++ void FuncionEmpezarJuego(View)
++ void FuncionTutorial(View)
+}
+interface com.example.myapplication.domain.score.points.PointsStrategy {
+~ int computeIncrement(Status,int)
+}
+class com.example.myapplication.MenuPausa {
+~ Button reanudar
+# void onCreate(Bundle)
++ void ReanudarJuego(View)
++ void CambiarAOpciones(View)
++ void SalirDelJuego(View)
+}
+class com.example.myapplication.domain.scoreboard.Scoreboard {
+- PriorityQueue<Score> scores
++ List<Score> getAllScores()
++ void addAllScores(Collection<Score>)
++ void addScore(Score)
+}
+
+
+androidx.appcompat.app.AppCompatActivity <|-- com.example.myapplication.PantallaDerrota
+androidx.appcompat.app.AppCompatActivity <|-- com.example.myapplication.TutoActivity
+com.example.myapplication.infrastructure.json.JsonDeserializer <|.. com.example.myapplication.infrastructure.serializer.ScoreJsonDeserializer
+com.example.myapplication.Comparable <|.. com.example.myapplication.ParPuntuacion
+com.example.myapplication.domain.scoreboard.ScoreboardRepository <|.. com.example.myapplication.infrastructure.database.FileScoreboardRepository
+androidx.appcompat.app.AppCompatActivity <|-- com.example.myapplication.GameEndedActivity
+com.example.myapplication.domain.score.points.PointsStrategy <|.. com.example.myapplication.domain.score.points.KarmaBasedPointsStrategy
+com.example.myapplication.domain.score.Comparable <|.. com.example.myapplication.domain.score.Score
+androidx.appcompat.app.AppCompatActivity <|-- com.example.myapplication.OpcionesAct
+androidx.appcompat.app.AppCompatActivity <|-- com.example.myapplication.MainJuego
+com.example.myapplication.application.ScoreboardService <|.. com.example.myapplication.application.ScoreboardServiceImpl
+android.app.Service <|-- com.example.myapplication.ServicioMusica
+com.example.myapplication.infrastructure.json.JsonSerializer <|.. com.example.myapplication.infrastructure.serializer.ScoreboardJsonSerializer
+java.io.Serializable <|-- com.example.myapplication.infrastructure.json.JsonSerializer
+com.example.myapplication.infrastructure.json.JsonSerializer <|.. com.example.myapplication.infrastructure.serializer.ScoreJsonSerializer
+java.io.Serializable <|-- com.example.myapplication.infrastructure.json.JsonDeserializer
+com.example.myapplication.infrastructure.json.JsonDeserializer <|.. com.example.myapplication.infrastructure.serializer.ScoreboardJsonDeserializer
+com.example.myapplication.domain.score.points.PointsStrategy <|.. com.example.myapplication.domain.score.points.SimplePointsStrategy
+androidx.appcompat.app.AppCompatActivity <|-- com.example.myapplication.MainActivity
+androidx.appcompat.app.AppCompatActivity <|-- com.example.myapplication.MenuPausa
+@enduml
