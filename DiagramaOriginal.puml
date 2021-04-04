@@ -1,0 +1,108 @@
+@startuml
+class com.example.myapplication.MainActivity {
+~ Button botonJugar
+~ ImageButton botonTuto
+~ TextView contador
++ Integer inicio
+# void onCreate(Bundle)
++ void FuncionMenuOpciones(View)
++ void FuncionTestSalir(View)
++ void FuncionEmpezarJuego(View)
++ void FuncionTutorial(View)
+}
+class com.example.myapplication.ServicioMusica {
+~ MediaPlayer mp
++ void onCreate()
++ int onStartCommand(Intent,int,int)
++ void onDestroy()
++ void mute()
++ IBinder onBind(Intent)
+}
+class com.example.myapplication.ParPuntuacion {
+- int puntos
++ int getPuntos()
++ void setPuntos(int)
++ int compareTo(Object)
+}
+class com.example.myapplication.PuntuacionDB {
+- int puntuacionReciente
+- ArrayList<ParPuntuacion> listaPuntuacionesMejores
++ int getPuntuacionReciente()
++ void setPuntuacionReciente(int)
++ ArrayList<ParPuntuacion> getListaPuntuacionesMejores()
++ void setListaPuntuacionesMejores(ArrayList<ParPuntuacion>)
+}
+class com.example.myapplication.TutoActivity {
+~ ImageButton botonSalir
+# void onCreate(Bundle)
++ void FuncionSalirTuto(View)
+}
+class com.example.myapplication.PantallaDerrota {
+~ Button volver
+# void onCreate(Bundle)
++ void FuncionVolverMenuPrincipal(View)
+}
+class com.example.myapplication.MenuPausa {
+~ Button reanudar
+# void onCreate(Bundle)
++ void ReanudarJuego(View)
++ void CambiarAOpciones(View)
++ void SalirDelJuego(View)
+}
+class com.example.myapplication.PantallaVictoria {
+~ Button volver
+~ String puntuacionFinal
+~ ArrayList<TextView> puntuacionesTop
+~ ArrayList<ParPuntuacion> punts
+~ JSONObject obj
+# void onCreate(Bundle)
++ void SetArrayPuncts(Context)
++ void ChangePunct(JSONObject,TextView)
++ String getJSONLine(Context,String)
++ void FuncionVolverMenuPrincipal(View)
++ void FuncionGuardarNombre(TextView)
++ void InsertarPrimero()
+}
+class com.example.myapplication.MainJuego {
+~ TextView contador
+~ boolean hasGanado
+~ long tiempRest
+~ int casoconcreto
+~ int puntuacion
+~ int karma
++ ArrayList<ImageView> personas
+# void onCreate(Bundle)
++ void RandomizePeople()
++ int getImage(String)
+# void onSaveInstanceState(Bundle)
++ void onClick(View)
++ void FuncionIrOpcionesJuego(View)
++ void cuentaatras(Long)
++ void serializarPuntuacion()
++ void redirigir()
+}
+class com.example.myapplication.OpcionesAct {
+~ ImageButton cruz
+~ Button guardar
++ {static} boolean encendida
+# void onCreate(Bundle)
+# void onSaveInstanceState(Bundle)
++ void FuncionesMusica(View)
++ void enciendeMusica()
++ void apagaMusica()
++ void volverAlmenu(View)
++ void guardar(View)
++ void quitarMenu(View)
+}
+
+
+androidx.appcompat.app.AppCompatActivity <|-- com.example.myapplication.MainActivity
+android.app.Service <|-- com.example.myapplication.ServicioMusica
+com.example.myapplication.Comparable <|.. com.example.myapplication.ParPuntuacion
+androidx.appcompat.app.AppCompatActivity <|-- com.example.myapplication.TutoActivity
+androidx.appcompat.app.AppCompatActivity <|-- com.example.myapplication.PantallaDerrota
+androidx.appcompat.app.AppCompatActivity <|-- com.example.myapplication.MenuPausa
+androidx.appcompat.app.AppCompatActivity <|-- com.example.myapplication.PantallaVictoria
+androidx.appcompat.app.AppCompatActivity <|-- com.example.myapplication.MainJuego
+androidx.appcompat.app.AppCompatActivity <|-- com.example.myapplication.OpcionesAct
+@enduml
