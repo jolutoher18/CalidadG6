@@ -17,7 +17,7 @@ import java.util.List;
 @SuppressWarnings("all")
 public class GameEndedActivity extends AppCompatActivity {
 
-    private final int TOP_SCORES_AMOUNT = 5;
+    private static final int TOP_SCORES_AMOUNT = 5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
