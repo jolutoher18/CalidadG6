@@ -8,7 +8,9 @@ import android.view.View;
 import android.widget.Button;
 
 public class MenuPausa extends AppCompatActivity {
-    Button reanudar,opciones,salir;
+    Button reanudar;
+    Button opciones;
+    Button salir;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
