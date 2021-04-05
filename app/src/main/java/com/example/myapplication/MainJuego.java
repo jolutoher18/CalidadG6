@@ -28,7 +28,8 @@ public class MainJuego extends AppCompatActivity {
     boolean hasGanado=false;
     long tiempRest;
     int casoconcreto;
-    int puntuacion,marcador;
+    int puntuacion;
+    int marcador;
     int karma=1;
     public ArrayList<ImageView> personas=new ArrayList<>();
 
@@ -57,7 +58,8 @@ public class MainJuego extends AppCompatActivity {
     public void RandomizePeople(){
         GridLayout miGrid= (GridLayout) findViewById(R.id.Grid);
         int count=miGrid.getChildCount();
-        int id,number,badSelect;
+        int number;
+        int badSelect;
         Random ran=new Random();
         badSelect=ran.nextInt(6);
         for (int i=0;i<count;i++){
@@ -110,16 +112,6 @@ public class MainJuego extends AppCompatActivity {
         }
 
     }
-
-    /*public void haGanado (boolean hasGanado) {
-        if (hasGanado == false) {
-            startActivity(new Intent(MainJuego.this, PantallaDerrota.class));
-        }
-        else{
-            //por alguna razón el juego crashea de lo lindo al pasar a Pantalla Victoria. Revisar el bug.
-            startActivity(new Intent(MainJuego.this, PantallaVictoria.class));
-        }
-    }*/
 
 
     public void FuncionIrOpcionesJuego(View view) {
