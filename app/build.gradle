@@ -16,6 +16,9 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        testApplicationId "app.src.test.java.com.example.myapplication"
+        testInstrumentationRunner "aoo.src.androidTest.java.com.example.myapplication.Instrumentation"
     }
 
     buildTypes {
@@ -27,6 +30,12 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    sourceSets {
+        androidTest {
+            assets.srcDirs = ['src/androidTest/assets']
+        }
     }
 }
 
