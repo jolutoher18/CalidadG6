@@ -1,21 +1,19 @@
 package com.example.myapplication;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.CountDownTimer;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
-import java.util.Random;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    Button botonJugar,botonOpciones,botonSalir;
+    Button botonJugar;
+    Button botonOpciones;
+    Button botonSalir;
     ImageButton botonTuto;
     TextView contador;
     public Integer inicio=0;

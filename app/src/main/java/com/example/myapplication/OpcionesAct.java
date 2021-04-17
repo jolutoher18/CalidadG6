@@ -11,7 +11,9 @@ import android.widget.ImageButton;
 
 public class OpcionesAct extends AppCompatActivity {
     ImageButton cruz;
-    Button guardar, volverAlMenu, musica;
+    Button guardar;
+    Button volverAlMenu;
+    Button musica;
     public static boolean encendida;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
