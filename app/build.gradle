@@ -17,8 +17,8 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-        testApplicationId "app.src.test.java.com.example.myapplication"
-        testInstrumentationRunner "aoo.src.androidTest.java.com.example.myapplication.Instrumentation"
+        testApplicationId "com.example.myapplication"
+        testInstrumentationRunner "com.example.myapplication.Instrumentation"
     }
 
     buildTypes {
