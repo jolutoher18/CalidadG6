@@ -59,7 +59,7 @@ task gitAdd {
     }
 }
 
-task gitCommit {
+/*task gitCommit {
     description "Esta tarea hace un commit con todos los elementos modificados con un mensaje a introducir"
     doLast {
         System.setProperty('java.awt.headless', 'false')
@@ -89,13 +89,13 @@ task gitPush {
             commandLine "git", "push", "origin", branch.toString()
         }
     }
-}
+}*/
 
-task gitCompletePush {
+/*task gitCompletePush {
     description "Esta tarea realiza todo el proceso para hacer un push (add, commit y push)"
     dependsOn "gitAdd"
     dependsOn "gitCommit"
     dependsOn "gitPush"
     tasks.findByNmae("gitCommit").mustRunAfter "gitAdd"
     tasks.findByNmae("gitPush").mustRunAfter "gitCommit"
-}
+}*/
