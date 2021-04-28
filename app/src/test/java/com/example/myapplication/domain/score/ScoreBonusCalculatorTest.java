@@ -2,6 +2,12 @@ package com.example.myapplication.domain.score;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+
+import io.cucumber.java.PendingException;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 /**
  * Acierto: (+) 10-50
@@ -46,9 +52,25 @@ public class ScoreBonusCalculatorTest {
     }
 
 }
+    @Test
+    public class MyStepDefinitions {
 
+        @Given("^ganar puntos extra$")
+        public void ganar_puntos_extra() throws Throwable {
+            throw new PendingException();
+        }
 
+        @When("^tenga puntos en mi marcador$")
+        public void tenga_puntos_en_mi_marcador() throws Throwable {
+            throw new PendingException();
+        }
 
+        @Then("^conseguire mas puntos$")
+        public void conseguire_mas_puntos() throws Throwable {
+            throw new PendingException();
+        }
+
+}
 
 
 
