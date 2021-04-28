@@ -59,7 +59,36 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:core:1.3.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:monitor:1.3.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-idling-resource:3.3.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.cucumber:cucumber-junit:6.8.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.13.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.sf.kxml:kxml2:2.3.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: info.cukes:cucumber-android:1.2.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: info.cukes:cucumber-picocontainer:1.2.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: info.cukes:cucumber-java:1.2.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: info.cukes:cucumber-core:1.2.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: info.cukes:cucumber-html:0.2.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: info.cukes:cucumber-jvm-deps:1.0.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: info.cukes:gherkin:2.12.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.cucumber:cucumber-java8:6.8.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.cucumber:cucumber-core:6.8.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.cucumber:cucumber-gherkin-messages:6.8.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.cucumber:cucumber-gherkin:6.8.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.cucumber:cucumber-plugin:6.8.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.cucumber:cucumber-expressions:10.3.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.cucumber:datatable:3.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.cucumber:docstring:6.8.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apiguardian:apiguardian-api:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.cucumber:html-formatter:9.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.cucumber:create-meta:2.0.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.cucumber:messages:13.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.cucumber:tag-expressions:3.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.jodah:typetools:0.6.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.guava:guava:17.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.picocontainer:picocontainer:2.15" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-core:3.1.0-alpha3@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:runner:1.1.0-alpha3@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:monitor:1.1.0-alpha3@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-idling-resource:3.1.0-alpha3@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />

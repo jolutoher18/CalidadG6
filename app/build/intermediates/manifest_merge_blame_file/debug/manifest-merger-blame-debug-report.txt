@@ -34,55 +34,54 @@
 21-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:9:9-54
 22        android:supportsRtl="true"
 22-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:11:9-35
-23        android:testOnly="true"
-24        android:theme="@style/Theme.Design.NoActionBar" >
-24-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:12:9-56
-25        <activity android:name="com.example.myapplication.MySplashScreen" >
-25-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:13:9-15:20
-25-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:13:19-49
-26        </activity>
-27        <activity android:name="com.example.myapplication.PantallaDerrota" />
-27-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:16:9-53
-27-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:16:19-50
-28        <activity android:name="com.example.myapplication.GameEndedActivity" />
-28-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:17:9-55
-28-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:17:19-52
-29        <activity android:name="com.example.myapplication.MenuPausa" />
-29-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:18:9-47
-29-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:18:19-44
-30        <activity android:name="com.example.myapplication.MainJuego" />
-30-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:19:9-57
-30-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:19:19-44
-31        <activity android:name="com.example.myapplication.TutoActivity" />
-31-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:20:9-49
-31-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:20:19-47
-32        <activity android:name="com.example.myapplication.OpcionesAct" />
-32-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:21:9-49
-32-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:21:19-46
-33        <activity
-33-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:22:9-27:20
-34            android:name="com.example.myapplication.MainActivity"
-34-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:22:19-47
-35            android:theme="@style/SplashTheme" >
-35-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:22:48-82
-36            <intent-filter>
-36-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:23:13-26:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:24:17-69
-37-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:24:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:25:17-77
-39-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:25:27-74
-40            </intent-filter>
-41        </activity>
-42
-43        <service
-43-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:28:9-82
-44            android:name="com.example.myapplication.ServicioMusica"
-44-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:28:18-48
-45            android:enabled="true" />
-45-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:28:49-71
-46    </application>
-47
-48</manifest>
+23        android:theme="@style/Theme.Design.NoActionBar" >
+23-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:12:9-56
+24        <activity android:name="com.example.myapplication.MySplashScreen" >
+24-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:13:9-15:20
+24-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:13:19-49
+25        </activity>
+26        <activity android:name="com.example.myapplication.PantallaDerrota" />
+26-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:16:9-53
+26-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:16:19-50
+27        <activity android:name="com.example.myapplication.GameEndedActivity" />
+27-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:17:9-55
+27-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:17:19-52
+28        <activity android:name="com.example.myapplication.MenuPausa" />
+28-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:18:9-47
+28-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:18:19-44
+29        <activity android:name="com.example.myapplication.MainJuego" />
+29-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:19:9-57
+29-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:19:19-44
+30        <activity android:name="com.example.myapplication.TutoActivity" />
+30-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:20:9-49
+30-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:20:19-47
+31        <activity android:name="com.example.myapplication.OpcionesAct" />
+31-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:21:9-49
+31-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:21:19-46
+32        <activity
+32-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:22:9-27:20
+33            android:name="com.example.myapplication.MainActivity"
+33-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:22:19-47
+34            android:theme="@style/SplashTheme" >
+34-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:22:48-82
+35            <intent-filter>
+35-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:23:13-26:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:24:17-69
+36-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:24:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:25:17-77
+38-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:25:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <service
+42-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:28:9-82
+43            android:name="com.example.myapplication.ServicioMusica"
+43-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:28:18-48
+44            android:enabled="true" />
+44-->F:\Sourcetree\CalidadG6\app\src\main\AndroidManifest.xml:28:49-71
+45    </application>
+46
+47</manifest>

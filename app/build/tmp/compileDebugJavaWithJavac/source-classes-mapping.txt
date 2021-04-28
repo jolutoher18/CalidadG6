@@ -26,12 +26,16 @@ com/example/myapplication/domain/random/RandomUtils.java
  com.example.myapplication.domain.random.RandomUtils
 com/example/myapplication/domain/Status.java
  com.example.myapplication.domain.Status
+com/example/myapplication/domain/score/ScoreBonusCalculator.java
+ com.example.myapplication.domain.score.ScoreBonusCalculator
 com/example/myapplication/infrastructure/serializer/ScoreJsonDeserializer.java
  com.example.myapplication.infrastructure.serializer.ScoreJsonDeserializer
 com/example/myapplication/infrastructure/json/JsonSerializer.java
  com.example.myapplication.infrastructure.json.JsonSerializer
 com/example/myapplication/infrastructure/database/FileScoreboardRepository.java
  com.example.myapplication.infrastructure.database.FileScoreboardRepository
+com/example/myapplication/infrastructure/MessageFactory.java
+ com.example.myapplication.infrastructure.MessageFactory
 com/example/myapplication/infrastructure/serializer/ScoreboardJsonDeserializer.java
  com.example.myapplication.infrastructure.serializer.ScoreboardJsonDeserializer
 com/example/myapplication/domain/scoreboard/ScoreboardRepository.java
@@ -57,6 +61,8 @@ com/example/myapplication/domain/score/points/PointsStrategy.java
  com.example.myapplication.domain.score.points.PointsStrategy
 com/example/myapplication/infrastructure/json/JsonDeserializer.java
  com.example.myapplication.infrastructure.json.JsonDeserializer
+com/example/myapplication/infrastructure/Message.java
+ com.example.myapplication.infrastructure.Message
 com/example/myapplication/BuildConfig.java
  com.example.myapplication.BuildConfig
 com/example/myapplication/domain/scoreboard/Scoreboard.java
