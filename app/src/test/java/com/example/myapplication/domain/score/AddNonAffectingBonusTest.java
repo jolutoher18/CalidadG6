@@ -23,6 +23,11 @@ import io.cucumber.junit.Cucumber;
  * 400-500        500
  */
 @RunWith(Cucumber.class)
+@CucumberOptions(
+        plugin = {"pretty"},
+        features = {"."},
+        glue = {"stepdefinitions"}
+)
 public class AddNonAffectingBonusTest {
 
     /*@Test

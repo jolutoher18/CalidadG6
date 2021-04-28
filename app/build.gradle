@@ -61,7 +61,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
     implementation 'androidx.navigation:navigation-fragment:2.2.2'
     implementation 'androidx.navigation:navigation-ui:2.2.2'
-    testImplementation 'junit:junit:4.+'
+    testImplementation 'junit:junit:latest'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     testImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
@@ -70,7 +70,7 @@ dependencies {
     testImplementation "io.cucumber:cucumber-java:6.8.1"
     testImplementation "io.cucumber:cucumber-java8:6.8.1"
     testImplementation "io.cucumber:cucumber-expressions:10.3.0"
-    testImplementation "io.cucumber:cucumber-junit:4.8.1"
+    testImplementation "io.cucumber:cucumber-junit:6.8.1"
     testImplementation "io.cucumber:cucumber-testng:4.8.1"
     testImplementation 'info.cukes:cucumber-android:1.2.5'
     testImplementation 'info.cukes:cucumber-picocontainer:1.2.5'
