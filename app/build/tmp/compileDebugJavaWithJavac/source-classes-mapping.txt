@@ -59,6 +59,8 @@ com/example/myapplication/domain/Game.java
  com.example.myapplication.domain.Game
 com/example/myapplication/domain/score/points/PointsStrategy.java
  com.example.myapplication.domain.score.points.PointsStrategy
+com/example/myapplication/Instrumentation.java
+ com.example.myapplication.Instrumentation
 com/example/myapplication/infrastructure/json/JsonDeserializer.java
  com.example.myapplication.infrastructure.json.JsonDeserializer
 com/example/myapplication/infrastructure/Message.java

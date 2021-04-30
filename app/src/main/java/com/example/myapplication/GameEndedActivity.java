@@ -61,7 +61,7 @@ public class GameEndedActivity extends AppCompatActivity {
 
     public MessageFactory createMessageFactory() {
         MessageFactory factory = new MessageFactory();
-        Message message = Message.newMessage("Game Ended!");
+        Message message = Message.newMessage("Game Ended!", "");
         factory.storeMessage("game.status.ended", message);
         return factory;
     }

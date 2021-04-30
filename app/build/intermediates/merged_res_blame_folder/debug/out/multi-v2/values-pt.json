@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Sourcetree\\CalidadG6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
+            "outputFile": "F:\\Git\\CalidadG6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sscid\\.gradle\\caches\\transforms-2\\files-2.1\\8d5c1f4a05f3c35d5390f90d4a4906ed\\navigation-ui-2.2.2\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\sscid\\.gradle\\caches\\transforms-2\\files-2.1\\b3d5c7e9710167b2f615efea22c9fe80\\navigation-ui-2.3.5\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

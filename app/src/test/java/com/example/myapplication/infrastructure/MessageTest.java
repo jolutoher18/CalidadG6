@@ -11,7 +11,7 @@ public class MessageTest {
         String content = "Welcome to the best game out here!";
 
         // Act : the performance of the act that is being tested
-        Message message = Message.newMessage(content);
+        Message message = Message.newMessage(content, "");
 
         // Assert : the assertion that the expected behavior occurred
         Assert.assertNotNull(message);
@@ -23,7 +23,7 @@ public class MessageTest {
         String content = "Welcome to the best game out here!";
 
         // Act : the performance of the act that is being tested
-        Message message = Message.newMessage(content);
+        Message message = Message.newMessage(content, "");
 
         // Assert : the assertion that the expected behavior occurred
         Assert.assertEquals("Welcome to the best game out here!", message.getContent());
@@ -34,7 +34,7 @@ public class MessageTest {
         // Arrange : arrangement of the preconditions of the test
         MessageFactory factory = new MessageFactory();
         String content = "Welcome to the best game out here!";
-        Message message = Message.newMessage(content);
+        Message message = Message.newMessage(content, "");
 
         // Act : the performance of the act that is being tested
         factory.storeMessage("game.welcome", message);
@@ -48,7 +48,7 @@ public class MessageTest {
         // Arrange : arrangement of the preconditions of the test
         MessageFactory factory = new MessageFactory();
         String content = "Welcome to the best game out here!";
-        Message message = Message.newMessage(content);
+        Message message = Message.newMessage(content, "");
 
         // Act : the performance of the act that is being tested
         factory.storeMessage("game.welcome", message);
@@ -62,7 +62,7 @@ public class MessageTest {
         // Arrange : arrangement of the preconditions of the test
         MessageFactory factory = new MessageFactory();
         String content = "Welcome to the best game out here!";
-        Message message = Message.newMessage(content);
+        Message message = Message.newMessage(content, "");
         factory.storeMessage("game.welcome", message);
 
         // Act : the performance of the act that is being tested

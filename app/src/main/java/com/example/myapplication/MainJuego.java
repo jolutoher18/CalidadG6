@@ -12,6 +12,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.myapplication.domain.Game;
+import com.example.myapplication.domain.GameFactory;
+import com.example.myapplication.domain.Status;
+import com.example.myapplication.domain.score.ScoreBonusCalculator;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -28,7 +33,6 @@ public class MainJuego extends AppCompatActivity {
     boolean hasGanado=false;
     long tiempRest;
     int casoconcreto;
-    int puntuacion;
     int marcador;
     int karma=1;
     public ArrayList<ImageView> personas=new ArrayList<>();
@@ -41,13 +45,11 @@ public class MainJuego extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pantallajuego);
         RandomizePeople();
-        puntuacion=0;
 
         if (savedInstanceState !=null){
             tiempRest=savedInstanceState.getLong("segundos");
             karma=savedInstanceState.getInt("penalizacion");
             casoconcreto= savedInstanceState.getInt("caso");
-            puntuacion=savedInstanceState.getInt("puntuacion");
             cuentaatras(tiempRest);
         }
         else {
@@ -70,6 +72,7 @@ public class MainJuego extends AppCompatActivity {
                 hijo.setTag("PersonaContagiada"+number);
             }
             else {
+                // Good select
                 hijo.setImageResource(getImage("bien" + number));
                 hijo.setTag("Persona"+number);
             }
@@ -89,7 +92,6 @@ public class MainJuego extends AppCompatActivity {
         outState.putLong("segundos",tiempRest);
         outState.putInt("caso",casoconcreto); //revisarlo
         outState.putInt("penalizacionSpam",karma);
-        outState.putInt("puntuacion",puntuacion);
     }
 
 
@@ -101,14 +103,19 @@ public class MainJuego extends AppCompatActivity {
             //Corrige la mascarilla de la persona que tiene mal puesta la mascallira
             indice=laImagen.getTag().toString().substring(17);
             laImagen.setImageResource(getImage("bien"+indice));
-            puntuacion=puntuacion+100;
+
+            Game game = GameFactory.currentGame();
+            game.updateStatus(Status.SUCCESS);
+
+            ScoreBonusCalculator bonusCalculator = new ScoreBonusCalculator();
+            bonusCalculator.addBonus(game.getScore());
 
             RandomizePeople();
 
         }
         else{
-            puntuacion= puntuacion - (50 * karma);
-            karma++;
+            Game game = GameFactory.currentGame();
+            game.updateStatus(Status.FAILED);
         }
 
     }
@@ -138,7 +145,7 @@ public class MainJuego extends AppCompatActivity {
 
             public void onFinish() {
                 //marcador y parte de puntucacion es provisional hasta que se haga la base de datos
-                marcador=puntuacion;
+                marcador=GameFactory.currentGame().getScore().getPoints();
 
                 karma=1;
                 contador.setText("Puntuación: "+ marcador);
@@ -163,7 +170,7 @@ public class MainJuego extends AppCompatActivity {
     }
     public void serializarPuntuacion() throws JSONException, IOException {
         PuntuacionDB lasPuntuaciones=new PuntuacionDB();
-        lasPuntuaciones.setPuntuacionReciente(puntuacion);
+        lasPuntuaciones.setPuntuacionReciente(GameFactory.currentGame().getScore().getPoints());
         File testFile= new File(getFilesDir(),"json.txt");
         try {
             FileWriter writer= new FileWriter(testFile);
