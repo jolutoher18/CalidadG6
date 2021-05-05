@@ -49,6 +49,11 @@ public class Score implements Comparable<Score> {
         points.set(result);
     }
 
+    public int addPoints(int increment) {
+        points.set(points.get() + increment);
+        return points.get();
+    }
+
     public boolean setKarma(boolean locked) {
         return isKarmaLocked.getAndSet(!locked);
     }

@@ -10,6 +10,8 @@ import com.example.myapplication.application.ScoreboardServiceImpl;
 import com.example.myapplication.domain.Game;
 import com.example.myapplication.domain.GameFactory;
 import com.example.myapplication.domain.score.Score;
+import com.example.myapplication.infrastructure.Message;
+import com.example.myapplication.infrastructure.MessageFactory;
 
 import java.io.File;
 import java.util.List;
@@ -49,6 +51,19 @@ public class GameEndedActivity extends AppCompatActivity {
             traversalIndex++;
         }
 
+        // Display the title message
+        MessageFactory messageFactory = createMessageFactory();
+        Message message = messageFactory.createMessage("game.status.ended");
+        int resourceId = findResourceId("title");
+        TextView titleView = findViewById(resourceId);
+        titleView.setText(message.getContent());
+    }
+
+    public MessageFactory createMessageFactory() {
+        MessageFactory factory = new MessageFactory();
+        Message message = Message.newMessage("Game Ended!", "");
+        factory.storeMessage("game.status.ended", message);
+        return factory;
     }
 
     public String getStorageFilePath() {
